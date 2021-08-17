@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OnlineShopping.API</name>
+    </assembly>
+    <members>
+        <member name="T:OnlineShopping.API.Controllers.ValuesController">
+            <summary>
+            菜单组件
+            </summary>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.#ctor(OnlineShopping.IDal.Imenudata,OnlineShopping.IDal.Iemployeedate,OnlineShopping.IDal.Ivehicle,OnlineShopping.IDal.Iownerdata)">
+            <summary>
+            构造函数注入
+            </summary>
+            <param name="imenudata"></param>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.Getmenutop(System.Int32)">
+            <summary>
+            头部菜单显示
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.Getmenuindex(System.Int32,System.Int32)">
+            <summary>
+            菜单查询显示
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.getemployeelogo(System.String,System.String)">
+            <summary>
+            员工登录界面
+            </summary>
+            <param name="name"></param>
+            <param name="pwd"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.Getvehicleshow">
+            <summary>
+            车辆管理显示
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.Postvehicleadd(OnlineShopping.Model.vehicletable)">
+            <summary>
+            车辆管理添加
+            </summary>
+            <param name="u"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.Getvehiclealt(System.Int32)">
+            <summary>
+            车辆管理反填
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.Postvehicleupt(OnlineShopping.Model.vehicletable)">
+            <summary>
+            车辆管理修改
+            </summary>
+            <param name="u"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.Getvehicledel(System.Int32)">
+            <summary>
+            车辆管理管理删除真删
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.Getownershow">
+            <summary>
+            货主管理显示
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.Postowneradd(OnlineShopping.Model.ownertable)">
+            <summary>
+            货主管理添加
+            </summary>
+            <param name="u"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.Getowneralt(System.Int32)">
+            <summary>
+            货主管理反填
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.Postownerupt(OnlineShopping.Model.ownertable)">
+            <summary>
+            货主管理反填
+            </summary>
+            <param name="u"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OnlineShopping.API.Controllers.ValuesController.Getownerdel(System.Int32)">
+            <summary>
+            货主管理删除
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
